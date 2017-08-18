@@ -1,2 +1,4 @@
-define(function (require, exports) {exports.a = function () {};
+define(function (require, exports, module) {
+exports.a = function () {};
+
 })

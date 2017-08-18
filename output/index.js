@@ -1,3 +1,5 @@
-define(function (require, exports) {let {transform} = require('./transform');
+define(function (require, exports, module) {
+let {transform} = require('./transform');
 transform();
+
 })

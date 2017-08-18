@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/feibinyang/transform-commonjs-to-amd/issues"
   },
-  "homepage": "https://github.com/feibinyang/transform-commonjs-to-amd#readme"
+  "homepage": "https://github.com/feibinyang/transform-commonjs-to-amd#readme",
+  "dependencies": {}
 }

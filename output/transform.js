@@ -1,4 +1,5 @@
-define(function (require, exports) {let fs = require('fs');
+define(function (require, exports, module) {
+let fs = require('fs');
 let path = require('path');
 let {input, output, prefix, suffix} = require('./config');
 
@@ -56,4 +57,5 @@ exports.write = function (info) {
 exports.watch = function (info) {
     // to be continue
 };
+
 })

@@ -1,5 +1,7 @@
-define(function (require, exports) {exports.input = './';
-exports.output = './output/';
-exports.prefix = 'define(function (require, exports) {';
-exports.suffix = '})';
+define(function (require, exports, module) {
+exports.input = './';
+exports.output = './output';
+exports.prefix = 'define(function (require, exports, module) {\n';
+exports.suffix = '\n})';
+
 })
